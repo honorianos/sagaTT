@@ -16,6 +16,14 @@
 		1D5ED348282D15F70048FDCF /* sagaTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED347282D15F70048FDCF /* sagaTTTests.swift */; };
 		1D5ED352282D15F70048FDCF /* sagaTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED351282D15F70048FDCF /* sagaTTUITests.swift */; };
 		1D5ED354282D15F70048FDCF /* sagaTTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED353282D15F70048FDCF /* sagaTTUITestsLaunchTests.swift */; };
+		1D5ED367282D17BD0048FDCF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED365282D17BD0048FDCF /* LoginViewController.swift */; };
+		1D5ED368282D17BD0048FDCF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D5ED366282D17BD0048FDCF /* LoginViewController.xib */; };
+		1D5ED36B282D18BE0048FDCF /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED36A282D18BE0048FDCF /* UITextField+Extension.swift */; };
+		1D5ED36F282D1E170048FDCF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED36D282D1E170048FDCF /* HomeViewController.swift */; };
+		1D5ED370282D1E170048FDCF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D5ED36E282D1E170048FDCF /* HomeViewController.xib */; };
+		1D5ED372282D1FB70048FDCF /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED371282D1FB70048FDCF /* AppColor.swift */; };
+		1D5ED376282D20940048FDCF /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED374282D20940048FDCF /* HomeCell.swift */; };
+		1D5ED377282D20940048FDCF /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D5ED375282D20940048FDCF /* HomeCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		1D5ED34D282D15F70048FDCF /* sagaTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sagaTTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5ED351282D15F70048FDCF /* sagaTTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sagaTTUITests.swift; sourceTree = "<group>"; };
 		1D5ED353282D15F70048FDCF /* sagaTTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sagaTTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D5ED365282D17BD0048FDCF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1D5ED366282D17BD0048FDCF /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		1D5ED36A282D18BE0048FDCF /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		1D5ED36D282D1E170048FDCF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1D5ED36E282D1E170048FDCF /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1D5ED371282D1FB70048FDCF /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		1D5ED374282D20940048FDCF /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		1D5ED375282D20940048FDCF /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		1D5ED32F282D15F60048FDCF /* sagaTT */ = {
 			isa = PBXGroup;
 			children = (
+				1D5ED360282D171A0048FDCF /* MVP */,
 				1D5ED330282D15F60048FDCF /* AppDelegate.swift */,
 				1D5ED332282D15F60048FDCF /* SceneDelegate.swift */,
 				1D5ED334282D15F60048FDCF /* ViewController.swift */,
@@ -125,6 +142,77 @@
 				1D5ED353282D15F70048FDCF /* sagaTTUITestsLaunchTests.swift */,
 			);
 			path = sagaTTUITests;
+			sourceTree = "<group>";
+		};
+		1D5ED360282D171A0048FDCF /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				1D5ED369282D18880048FDCF /* Extensions */,
+				1D5ED363282D175A0048FDCF /* Viewa */,
+				1D5ED362282D17430048FDCF /* Presenter */,
+				1D5ED361282D17300048FDCF /* Model */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		1D5ED361282D17300048FDCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D5ED362282D17430048FDCF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		1D5ED363282D175A0048FDCF /* Viewa */ = {
+			isa = PBXGroup;
+			children = (
+				1D5ED36C282D1DD70048FDCF /* Home */,
+				1D5ED364282D176E0048FDCF /* Login */,
+			);
+			path = Viewa;
+			sourceTree = "<group>";
+		};
+		1D5ED364282D176E0048FDCF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1D5ED365282D17BD0048FDCF /* LoginViewController.swift */,
+				1D5ED366282D17BD0048FDCF /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1D5ED369282D18880048FDCF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1D5ED36A282D18BE0048FDCF /* UITextField+Extension.swift */,
+				1D5ED371282D1FB70048FDCF /* AppColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1D5ED36C282D1DD70048FDCF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1D5ED373282D20390048FDCF /* HomeCell */,
+				1D5ED36D282D1E170048FDCF /* HomeViewController.swift */,
+				1D5ED36E282D1E170048FDCF /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1D5ED373282D20390048FDCF /* HomeCell */ = {
+			isa = PBXGroup;
+			children = (
+				1D5ED374282D20940048FDCF /* HomeCell.swift */,
+				1D5ED375282D20940048FDCF /* HomeCell.xib */,
+			);
+			path = HomeCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +319,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5ED368282D17BD0048FDCF /* LoginViewController.xib in Resources */,
 				1D5ED33D282D15F70048FDCF /* LaunchScreen.storyboard in Resources */,
+				1D5ED370282D1E170048FDCF /* HomeViewController.xib in Resources */,
 				1D5ED33A282D15F70048FDCF /* Assets.xcassets in Resources */,
+				1D5ED377282D20940048FDCF /* HomeCell.xib in Resources */,
 				1D5ED338282D15F60048FDCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D5ED36B282D18BE0048FDCF /* UITextField+Extension.swift in Sources */,
+				1D5ED367282D17BD0048FDCF /* LoginViewController.swift in Sources */,
+				1D5ED376282D20940048FDCF /* HomeCell.swift in Sources */,
 				1D5ED335282D15F60048FDCF /* ViewController.swift in Sources */,
+				1D5ED372282D1FB70048FDCF /* AppColor.swift in Sources */,
 				1D5ED331282D15F60048FDCF /* AppDelegate.swift in Sources */,
 				1D5ED333282D15F60048FDCF /* SceneDelegate.swift in Sources */,
+				1D5ED36F282D1E170048FDCF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
