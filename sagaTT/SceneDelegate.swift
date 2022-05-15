@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import RealmSwift
+
+var db: Realm = try! Realm()
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -18,12 +21,27 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
+        configRealm()
+        UsersUtil.initBd()
         var controller: UIViewController!
         controller = UINavigationController(rootViewController: LoginViewController())
         window?.rootViewController = controller
         window?.makeKeyAndVisible()
     }
 
+    func configRealm(){
+        let config = Realm.Configuration(
+            schemaVersion: 1,
+            migrationBlock : { migration, oldSchemaVersion in
+                switch oldSchemaVersion {
+                case 1:
+                    migration.enumerateObjects(ofType: ModelMoneda.className(), {oldObj, newObj in})
+                default:
+                    break
+                }
+        })
+        Realm.Configuration.defaultConfiguration = config
+    }
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.

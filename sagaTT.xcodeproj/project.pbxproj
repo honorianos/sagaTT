@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D049DFE282DEC3100213E28 /* KeychainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049DFD282DEC3100213E28 /* KeychainSwiftDistrib.swift */; };
+		1D049E00282DED4600213E28 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049DFF282DED4600213E28 /* Users.swift */; };
+		1D049E02282DEF3E00213E28 /* UsersUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049E01282DEF3E00213E28 /* UsersUtil.swift */; };
+		1D049E06282DFA7000213E28 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D049E05282DFA7000213E28 /* Utils.swift */; };
+		1D049E09282DFDC000213E28 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 1D049E08282DFDC000213E28 /* JGProgressHUD */; };
+		1D33C6EF282ECAF900EA058C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1D33C6EE282ECAF900EA058C /* Realm */; };
+		1D33C6F1282ECAF900EA058C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1D33C6F0282ECAF900EA058C /* RealmSwift */; };
+		1D33C6F5282EE48100EA058C /* ModelMoneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6F4282EE48100EA058C /* ModelMoneda.swift */; };
+		1D33C6F7282EE7AF00EA058C /* MonedaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6F6282EE7AF00EA058C /* MonedaDao.swift */; };
+		1D33C6FA282EEB0600EA058C /* StructMoneda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C6F9282EEB0600EA058C /* StructMoneda.swift */; };
+		1D33C701282EEDD600EA058C /* APIconnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C700282EEDD600EA058C /* APIconnect.swift */; };
+		1D33C71B282F46AC00EA058C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1D33C71A282F46AC00EA058C /* Alamofire */; };
+		1D33C71D282F699F00EA058C /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C71C282F699F00EA058C /* LoginPresenter.swift */; };
+		1D33C71F282F69B000EA058C /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C71E282F69B000EA058C /* HomePresenter.swift */; };
+		1D33C721282F80A500EA058C /* PascalCaseDecode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D33C720282F80A500EA058C /* PascalCaseDecode.swift */; };
 		1D5ED331282D15F60048FDCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED330282D15F60048FDCF /* AppDelegate.swift */; };
 		1D5ED333282D15F60048FDCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED332282D15F60048FDCF /* SceneDelegate.swift */; };
 		1D5ED335282D15F60048FDCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED334282D15F60048FDCF /* ViewController.swift */; };
@@ -24,6 +39,10 @@
 		1D5ED372282D1FB70048FDCF /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED371282D1FB70048FDCF /* AppColor.swift */; };
 		1D5ED376282D20940048FDCF /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5ED374282D20940048FDCF /* HomeCell.swift */; };
 		1D5ED377282D20940048FDCF /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D5ED375282D20940048FDCF /* HomeCell.xib */; };
+		1DCCC1372830073200EA8952 /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1DCCC1362830073200EA8952 /* CryptoSwift */; };
+		1DCCC13B283029E700EA8952 /* DetailMonedaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCCC139283029E700EA8952 /* DetailMonedaController.swift */; };
+		1DCCC13C283029E700EA8952 /* DetailMoneda.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DCCC13A283029E700EA8952 /* DetailMoneda.xib */; };
+		1DCCC13E283029F800EA8952 /* ViewDataDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DCCC13D283029F800EA8952 /* ViewDataDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +63,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D049DFD282DEC3100213E28 /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
+		1D049DFF282DED4600213E28 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		1D049E01282DEF3E00213E28 /* UsersUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersUtil.swift; sourceTree = "<group>"; };
+		1D049E05282DFA7000213E28 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1D33C6F4282EE48100EA058C /* ModelMoneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMoneda.swift; sourceTree = "<group>"; };
+		1D33C6F6282EE7AF00EA058C /* MonedaDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonedaDao.swift; sourceTree = "<group>"; };
+		1D33C6F9282EEB0600EA058C /* StructMoneda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructMoneda.swift; sourceTree = "<group>"; };
+		1D33C700282EEDD600EA058C /* APIconnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIconnect.swift; sourceTree = "<group>"; };
+		1D33C71C282F699F00EA058C /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		1D33C71E282F69B000EA058C /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		1D33C720282F80A500EA058C /* PascalCaseDecode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PascalCaseDecode.swift; sourceTree = "<group>"; };
 		1D5ED32D282D15F60048FDCF /* sagaTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sagaTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5ED330282D15F60048FDCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D5ED332282D15F60048FDCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +95,9 @@
 		1D5ED371282D1FB70048FDCF /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		1D5ED374282D20940048FDCF /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
 		1D5ED375282D20940048FDCF /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		1DCCC139283029E700EA8952 /* DetailMonedaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMonedaController.swift; sourceTree = "<group>"; };
+		1DCCC13A283029E700EA8952 /* DetailMoneda.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailMoneda.xib; sourceTree = "<group>"; };
+		1DCCC13D283029F800EA8952 /* ViewDataDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDataDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +105,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D33C6F1282ECAF900EA058C /* RealmSwift in Frameworks */,
+				1D33C71B282F46AC00EA058C /* Alamofire in Frameworks */,
+				1D33C6EF282ECAF900EA058C /* Realm in Frameworks */,
+				1DCCC1372830073200EA8952 /* CryptoSwift in Frameworks */,
+				1D049E09282DFDC000213E28 /* JGProgressHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +130,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D049DFC282DEC1000213E28 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1D049DFD282DEC3100213E28 /* KeychainSwiftDistrib.swift */,
+				1D049DFF282DED4600213E28 /* Users.swift */,
+				1D049E01282DEF3E00213E28 /* UsersUtil.swift */,
+				1D049E05282DFA7000213E28 /* Utils.swift */,
+				1D33C720282F80A500EA058C /* PascalCaseDecode.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1D33C6F2282ECD3500EA058C /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C6F6282EE7AF00EA058C /* MonedaDao.swift */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		1D33C6F3282EE47200EA058C /* Moneda */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C6F4282EE48100EA058C /* ModelMoneda.swift */,
+			);
+			path = Moneda;
+			sourceTree = "<group>";
+		};
+		1D33C6F8282EEAC800EA058C /* Strutcs */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C6F9282EEB0600EA058C /* StructMoneda.swift */,
+			);
+			path = Strutcs;
+			sourceTree = "<group>";
+		};
+		1D33C6FC282EECD000EA058C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1D33C700282EEDD600EA058C /* APIconnect.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		1D5ED324282D15F60048FDCF = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +197,8 @@
 		1D5ED32F282D15F60048FDCF /* sagaTT */ = {
 			isa = PBXGroup;
 			children = (
+				1D5ED369282D18880048FDCF /* Extensions */,
+				1D049DFC282DEC1000213E28 /* Utils */,
 				1D5ED360282D171A0048FDCF /* MVP */,
 				1D5ED330282D15F60048FDCF /* AppDelegate.swift */,
 				1D5ED332282D15F60048FDCF /* SceneDelegate.swift */,
@@ -147,8 +231,7 @@
 		1D5ED360282D171A0048FDCF /* MVP */ = {
 			isa = PBXGroup;
 			children = (
-				1D5ED369282D18880048FDCF /* Extensions */,
-				1D5ED363282D175A0048FDCF /* Viewa */,
+				1D5ED363282D175A0048FDCF /* View */,
 				1D5ED362282D17430048FDCF /* Presenter */,
 				1D5ED361282D17300048FDCF /* Model */,
 			);
@@ -158,6 +241,10 @@
 		1D5ED361282D17300048FDCF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1D33C6FC282EECD000EA058C /* Networking */,
+				1D33C6F8282EEAC800EA058C /* Strutcs */,
+				1D33C6F3282EE47200EA058C /* Moneda */,
+				1D33C6F2282ECD3500EA058C /* Dao */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,17 +252,20 @@
 		1D5ED362282D17430048FDCF /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				1D33C71C282F699F00EA058C /* LoginPresenter.swift */,
+				1D33C71E282F69B000EA058C /* HomePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		1D5ED363282D175A0048FDCF /* Viewa */ = {
+		1D5ED363282D175A0048FDCF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1DCCC138283029B700EA8952 /* Detail */,
 				1D5ED36C282D1DD70048FDCF /* Home */,
 				1D5ED364282D176E0048FDCF /* Login */,
 			);
-			path = Viewa;
+			path = View;
 			sourceTree = "<group>";
 		};
 		1D5ED364282D176E0048FDCF /* Login */ = {
@@ -215,6 +305,16 @@
 			path = HomeCell;
 			sourceTree = "<group>";
 		};
+		1DCCC138283029B700EA8952 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1DCCC139283029E700EA8952 /* DetailMonedaController.swift */,
+				1DCCC13A283029E700EA8952 /* DetailMoneda.xib */,
+				1DCCC13D283029F800EA8952 /* ViewDataDetail.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,6 +331,13 @@
 			dependencies = (
 			);
 			name = sagaTT;
+			packageProductDependencies = (
+				1D049E08282DFDC000213E28 /* JGProgressHUD */,
+				1D33C6EE282ECAF900EA058C /* Realm */,
+				1D33C6F0282ECAF900EA058C /* RealmSwift */,
+				1D33C71A282F46AC00EA058C /* Alamofire */,
+				1DCCC1362830073200EA8952 /* CryptoSwift */,
+			);
 			productName = sagaTT;
 			productReference = 1D5ED32D282D15F60048FDCF /* sagaTT.app */;
 			productType = "com.apple.product-type.application";
@@ -303,6 +410,12 @@
 				Base,
 			);
 			mainGroup = 1D5ED324282D15F60048FDCF;
+			packageReferences = (
+				1D049E07282DFDC000213E28 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+				1D33C6ED282ECAF900EA058C /* XCRemoteSwiftPackageReference "realm-swift" */,
+				1D33C719282F46AC00EA058C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1DCCC1352830073200EA8952 /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+			);
 			productRefGroup = 1D5ED32E282D15F60048FDCF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -321,6 +434,7 @@
 			files = (
 				1D5ED368282D17BD0048FDCF /* LoginViewController.xib in Resources */,
 				1D5ED33D282D15F70048FDCF /* LaunchScreen.storyboard in Resources */,
+				1DCCC13C283029E700EA8952 /* DetailMoneda.xib in Resources */,
 				1D5ED370282D1E170048FDCF /* HomeViewController.xib in Resources */,
 				1D5ED33A282D15F70048FDCF /* Assets.xcassets in Resources */,
 				1D5ED377282D20940048FDCF /* HomeCell.xib in Resources */,
@@ -349,14 +463,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D049E02282DEF3E00213E28 /* UsersUtil.swift in Sources */,
 				1D5ED36B282D18BE0048FDCF /* UITextField+Extension.swift in Sources */,
 				1D5ED367282D17BD0048FDCF /* LoginViewController.swift in Sources */,
+				1D049E00282DED4600213E28 /* Users.swift in Sources */,
+				1DCCC13B283029E700EA8952 /* DetailMonedaController.swift in Sources */,
 				1D5ED376282D20940048FDCF /* HomeCell.swift in Sources */,
 				1D5ED335282D15F60048FDCF /* ViewController.swift in Sources */,
 				1D5ED372282D1FB70048FDCF /* AppColor.swift in Sources */,
+				1DCCC13E283029F800EA8952 /* ViewDataDetail.swift in Sources */,
+				1D049DFE282DEC3100213E28 /* KeychainSwiftDistrib.swift in Sources */,
+				1D33C6F7282EE7AF00EA058C /* MonedaDao.swift in Sources */,
+				1D33C71D282F699F00EA058C /* LoginPresenter.swift in Sources */,
+				1D33C6F5282EE48100EA058C /* ModelMoneda.swift in Sources */,
 				1D5ED331282D15F60048FDCF /* AppDelegate.swift in Sources */,
+				1D33C6FA282EEB0600EA058C /* StructMoneda.swift in Sources */,
+				1D33C721282F80A500EA058C /* PascalCaseDecode.swift in Sources */,
 				1D5ED333282D15F60048FDCF /* SceneDelegate.swift in Sources */,
+				1D049E06282DFA7000213E28 /* Utils.swift in Sources */,
+				1D33C71F282F69B000EA058C /* HomePresenter.swift in Sources */,
 				1D5ED36F282D1E170048FDCF /* HomeViewController.swift in Sources */,
+				1D33C701282EEDD600EA058C /* APIconnect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,6 +827,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D049E07282DFDC000213E28 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		1D33C6ED282ECAF900EA058C /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.19.0;
+			};
+		};
+		1D33C719282F46AC00EA058C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.9.0;
+			};
+		};
+		1DCCC1352830073200EA8952 /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D049E08282DFDC000213E28 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D049E07282DFDC000213E28 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+		1D33C6EE282ECAF900EA058C /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D33C6ED282ECAF900EA058C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		1D33C6F0282ECAF900EA058C /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D33C6ED282ECAF900EA058C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		1D33C71A282F46AC00EA058C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D33C719282F46AC00EA058C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1DCCC1362830073200EA8952 /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1DCCC1352830073200EA8952 /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1D5ED325282D15F60048FDCF /* Project object */;
 }
